@@ -70,26 +70,6 @@ function renderRides(ridesArray) {
 window.addEventListener('DOMContentLoaded', async function() {
   // YOUR CODE
 
-
-
-
-  
-
-  //Looping through all rides to complete sorting
-  // for (let i = 0; i < allRides.length; i++) {
-  //   let level = levelOfService(allRides[i])
-  //   if (level == 'Noober Pool') {
-  //     Pool.push(allRides[i])
-  //   } else if (level == 'Noober Purple') {
-  //     Purple.push(allRides[i])
-  //   } else if (level == 'Noober XL') {
-  //     XL.push(allRides[i])
-  //   } else if (level == 'Noober X') {
-  //     X.push(allRides[i])
-  //   }
-  // }
-
-
   //Asigning an element for the HTML rendering space
   let render = document.querySelector('.rides')
 
